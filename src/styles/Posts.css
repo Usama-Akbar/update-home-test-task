@@ -1,0 +1,189 @@
+.post-heading {
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.post-breadcrump {
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: white;
+}
+.post-banner-main-div {
+  background-color: #182734cc;
+}
+.posts-section {
+  padding: 100px 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.posts-table {
+  width: 876px !important;
+  height: 464px !important;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.05);
+  padding: 20px 20px 34.81036376953125px 20px;
+
+  border: none !important;
+}
+.posts-card {
+  border: none !important;
+  width: 296px !important;
+  height: 432px !important;
+  padding: 20px 20px 34.81036376953125px 20px;
+  border-radius: 10px;
+  gap: 15px;
+  box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.05);
+}
+.post-email {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(117, 127, 149, 1);
+}
+.post-name {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(17, 17, 17, 1);
+}
+.post-button {
+  width: 100%;
+  color: white !important;
+  border: none !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center;
+  background: rgba(254, 206, 1, 1) !important;
+}
+.post-table-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(17, 17, 17, 1);
+}
+.table-head-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-input {
+  width: 216px !important;
+  height: 46px;
+}
+.actions-btns {
+  cursor: pointer;
+}
+.table-id {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.post-description {
+  max-width: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+td {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ant-pagination-options {
+  display: none !important;
+}
+.swal-title {
+  text-align: left !important;
+}
+.swal-button--cancel {
+  width: 170px;
+  height: 44px;
+  padding: 10px 18px 10px 18px;
+  border-radius: 50px;
+  border: 1px;
+  gap: 8px;
+}
+.swal-button--danger {
+  width: 170px;
+  height: 44px;
+  padding: 10px 18px 10px 18px;
+  border-radius: 50px;
+  border: 1px;
+  gap: 8px;
+  background: rgba(233, 115, 105, 1);
+}
+.swal-footer {
+  text-align: center !important;
+}
+.update-btn {
+  width: 174px;
+  height: 53.19px;
+  padding: 13px 25.220001220703125px 14.189998626708984px 25px;
+  border-radius: 50px !important;
+  gap: 5px;
+  background: rgba(254, 206, 1, 1) !important;
+  color: black !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+.form-heading {
+  font-weight: 700 !important;
+}
+.post-title-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(33, 37, 41, 1);
+}
+.post-title-heading {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(33, 37, 41, 1);
+}
+td {
+  cursor: pointer !important;
+}
+
+.shimmer {
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #f0f0f0 25%, #e1e1e1 37%, #f0f0f0 63%);
+  background-size: 400% 400%;
+  animation: shimmerAnimation 2s infinite;
+}
+
+@keyframes shimmerAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

@@ -1,0 +1,70 @@
+.logo {
+  font-family: "Open Sans";
+  font-size: 25px !important;
+  font-weight: bolder !important;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.navbar {
+  padding: 15px !important;
+}
+.navbar-nav {
+  display: contents !important;
+}
+.navbar-collapse {
+  display: flex;
+  justify-content: space-evenly !important;
+}
+.nav-heading-text {
+  color: #fece01;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body {
+  font-family: "Open Sans" !important;
+}
+.nav-heading-desc {
+  font-size: 15px;
+}
+.nav-heading-phone {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.phone-badge {
+  position: absolute;
+  height: 85px;
+  width: 60px;
+  top: 0;
+  display: flex;
+  background: #374b5d;
+  border-radius: 0px 0px 50px 50px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.phone-number-div {
+  margin-left: 70px;
+}
+.sec-nav-bar {
+  padding: 0px 120px;
+  height: 68px;
+  top: 120px;
+  /* padding: 1px 52.5px 1px 52.5px; */
+  background-color: #1c2b39;
+}
+.link-name {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #cdd3d8;
+}

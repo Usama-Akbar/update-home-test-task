@@ -1,0 +1,277 @@
+.home-bg-image {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.street-bg-image {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.footer-baner-bg-image {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.title-div {
+  padding: 0px 40px;
+  position: absolute;
+  display: flex;
+  top: 140px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+
+  /* margin-left: 130px; */
+}
+.first-heading {
+  color: #eaeaea;
+  z-index: 99;
+  font-size: 20px;
+}
+.sec-heading {
+  color: #eaeaea;
+  z-index: 99;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.book-btn {
+  width: 180px;
+  height: 54px;
+  margin-top: 20px;
+  padding: 15px 42 15px 42;
+  color: white;
+  background-color: #fece01;
+}
+.mobile-holding-image {
+  height: 100%;
+  width: 100%;
+}
+.homepage-main-div {
+  background: #182734cc;
+}
+.card-first-heading {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-sec-heading {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-div {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px 15px !important;
+}
+.card-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.video-image {
+  width: 80%;
+  height: 80%;
+}
+.mid-desc-div {
+  width: 45%;
+}
+.qoute-desc-one {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.qoute-desc-two {
+  font-family: "Montserrat";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+.qoute-desc-three {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  color: #777777;
+  text-align: left;
+}
+.quote-item-image {
+  width: 80%;
+  height: 80%;
+}
+.deals-div {
+  position: absolute;
+  z-index: 99;
+  margin-top: 120px;
+}
+.book-sec-heading {
+  color: #eaeaea;
+  z-index: 99;
+  font-size: 20px;
+  width: 70%;
+  text-align: center;
+  margin-top: 50px;
+}
+.deals-image {
+  width: 100%;
+  height: 10%;
+}
+.services-desc-div {
+  width: 40%;
+  text-align: center;
+  margin-top: 70px;
+}
+.main-services-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services-card-div {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px 30px !important;
+}
+.banner-heading {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.banner-div {
+  position: absolute;
+  z-index: 99;
+}
+.book-btn-new {
+  width: 180px;
+  height: 54px;
+  margin-left: 60px;
+  padding: 15px 42 15px 42;
+  color: white;
+  background-color: #fece01;
+}
+@media only screen and (max-width: 800px) {
+  .phone-badge {
+    display: none;
+  }
+  .navbar-collapse {
+    display: flex;
+    /* justify-content: space-evenly !important; */
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .title-div {
+    padding: 0px 40px;
+    position: absolute;
+    display: flex;
+    top: 140px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    /* margin-left: 130px; */
+    flex-direction: column-reverse;
+  }
+  .home-bg-image {
+    width: 700px;
+    height: 700px;
+    opacity: 0.5;
+  }
+  .card-div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-card {
+    margin-top: 30px;
+  }
+  .mobile-services-div {
+    flex-direction: column;
+  }
+  .mid-desc-div {
+    width: 80%;
+  }
+  .quote-item-image {
+    display: none;
+  }
+  .video-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .three-city-images {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .deals-image {
+    width: 65%;
+    height: 10%;
+    margin-top: 20px;
+  }
+  .video-image-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .street-bg-image {
+    width: 1200px;
+    height: 1200px;
+    opacity: 0.5;
+  }
+  .services-desc-div {
+    width: 90%;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .services-card-div {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-baner-bg-image {
+    height: 300px;
+    width: 500px;
+  }
+  .banner-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .book-btn-new {
+    margin: 0px;
+  }
+  .footer-main-div {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .quick-links-section {
+    margin-top: 20px;
+  }
+  .info-section {
+    margin-top: 20px;
+  }
+  .posts-card {
+    display: none !important;
+  }
+  .posts-section {
+    padding: 20px !important;
+  }
+}
